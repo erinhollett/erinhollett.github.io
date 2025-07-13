@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album Art App</title>
+</head>
+<body>
+
+  <h1>Album Cover Template</h1>
+  <canvas id="albumCover" width="500" height="500"></canvas>
+
+  <canvas id="croppedSnapshot" width="250" height="250"></canvas>
+
+  <h1>User Snapshot</h1>
+  <canvas id="snapShot" ></canvas>
+
+  
+
+  <video id="webcamFeed" width="500" autoplay style="display:none">Webcam feed not available</video>
+
+  <br>
+  <button type="button" id="startWebcam">Turn on Webcam</button>
+  <button type="button" id="closeWebcam">Turn off Webcam</button>
+  <button type="button" id="capturePhoto">Take Picture</button>
+  <button type="button" id="pasteCapture">Paste to album</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
